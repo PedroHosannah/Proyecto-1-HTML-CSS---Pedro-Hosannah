@@ -1,0 +1,18 @@
+PORTFOLIO PERSONAL - PEDRO HOSANNAH NAVAS
+
+Archivos incluidos:
+- index.html
+- sobre_mi.html
+- cv.html
+- portafolio.html
+- contacto.html
+- styles.css
+- README.txt
+- images/ (recursos visuales)
+
+Esta versión no utiliza archivos JavaScript propios. La web es HTML y CSS, con Font Awesome cargado desde CDN.
+
+Para abrirla:
+1. Abre la carpeta completa en Visual Studio Code.
+2. Abre index.html con el navegador o con Live Server.
+3. Mantén la carpeta images junto a los archivos HTML.
