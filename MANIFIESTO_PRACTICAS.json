@@ -1,0 +1,159 @@
+{
+  "curso": "2026-2027",
+  "total": 18,
+  "por_modulo": {
+    "seguridad": 6,
+    "aso": 2,
+    "sri": 3,
+    "iaw": 4,
+    "asgbd": 1,
+    "optativo": 2,
+    "intermodular": 0
+  },
+  "practicas": [
+    {
+      "id": "shodan",
+      "asignatura": "Seguridad y Alta Disponibilidad",
+      "titulo": "01 - Reconocimiento pasivo con Shodan",
+      "archivo": "assets/docs/memorias/seguridad_shodan.pdf",
+      "tamano_bytes": 1093415,
+      "estado": "Práctica guiada documentada"
+    },
+    {
+      "id": "osiris",
+      "asignatura": "Seguridad y Alta Disponibilidad",
+      "titulo": "02 - Operación Ojo Público: OSIRIS",
+      "archivo": "assets/docs/memorias/seguridad_osiris.pdf",
+      "tamano_bytes": 2017256,
+      "estado": "Práctica documentada"
+    },
+    {
+      "id": "nmap",
+      "asignatura": "Seguridad y Alta Disponibilidad",
+      "titulo": "03 - Auditoría local con Nmap",
+      "archivo": "assets/docs/memorias/seguridad_nmap.pdf",
+      "tamano_bytes": 933231,
+      "estado": "Práctica documentada"
+    },
+    {
+      "id": "incidentes",
+      "asignatura": "Seguridad y Alta Disponibilidad",
+      "titulo": "04 - Análisis de respuesta a un incidente",
+      "archivo": "assets/docs/memorias/seguridad_incidentes.pdf",
+      "tamano_bytes": 114142,
+      "estado": "Caso práctico teórico"
+    },
+    {
+      "id": "suricata",
+      "asignatura": "Seguridad y Alta Disponibilidad",
+      "titulo": "05 - Detección de intrusiones con Suricata",
+      "archivo": "assets/docs/memorias/seguridad_suricata.pdf",
+      "tamano_bytes": 1415025,
+      "estado": "Práctica documentada"
+    },
+    {
+      "id": "openssl",
+      "asignatura": "Seguridad y Alta Disponibilidad",
+      "titulo": "06 - Integridad, cifrado y firmas con OpenSSL",
+      "archivo": "assets/docs/memorias/seguridad_openssl.pdf",
+      "tamano_bytes": 2371491,
+      "estado": "Práctica documentada"
+    },
+    {
+      "id": "active-directory",
+      "asignatura": "Administración de Sistemas Operativos",
+      "titulo": "01 - Servicio de directorio con Active Directory",
+      "archivo": "assets/docs/memorias/aso_active-directory.pdf",
+      "tamano_bytes": 2441709,
+      "estado": "Práctica documentada - Comprobación pendiente"
+    },
+    {
+      "id": "vlsm",
+      "asignatura": "Administración de Sistemas Operativos",
+      "titulo": "00 - Subnetting VLSM y rutas estáticas",
+      "archivo": "assets/docs/memorias/aso_vlsm.pdf",
+      "tamano_bytes": 615060,
+      "estado": "Ejercicio documentado"
+    },
+    {
+      "id": "dhcp",
+      "asignatura": "Servicios de Red e Internet",
+      "titulo": "01 - DHCP con Wireshark y Split-Scope",
+      "archivo": "assets/docs/memorias/sri_dhcp.pdf",
+      "tamano_bytes": 4084843,
+      "estado": "Práctica documentada"
+    },
+    {
+      "id": "dhcp-ampliacion",
+      "asignatura": "Servicios de Red e Internet",
+      "titulo": "02 - Reservas y opciones avanzadas de DHCP",
+      "archivo": "assets/docs/memorias/sri_dhcp-ampliacion.pdf",
+      "tamano_bytes": 1131902,
+      "estado": "Práctica documentada"
+    },
+    {
+      "id": "dns-brisamar",
+      "asignatura": "Servicios de Red e Internet",
+      "titulo": "03 - Diagnóstico DNS: Brisamar Logística",
+      "archivo": "assets/docs/memorias/sri_dns-brisamar.pdf",
+      "tamano_bytes": 409690,
+      "estado": "En desarrollo - Documento mixto"
+    },
+    {
+      "id": "tienda-paco",
+      "asignatura": "Implantación de Aplicaciones Web",
+      "titulo": "01 - Diseño del entorno LAMP para Tienda de Paco",
+      "archivo": "assets/docs/memorias/iaw_tienda-paco.pdf",
+      "tamano_bytes": 168435,
+      "estado": "Ejercicio de diseño"
+    },
+    {
+      "id": "xampp",
+      "asignatura": "Implantación de Aplicaciones Web",
+      "titulo": "02 - Instalación y comprobación de XAMPP",
+      "archivo": "assets/docs/memorias/iaw_xampp.pdf",
+      "tamano_bytes": 2859996,
+      "estado": "Práctica documentada"
+    },
+    {
+      "id": "lifesport-u1",
+      "asignatura": "Implantación de Aplicaciones Web",
+      "titulo": "03 - LifeSport: preparación y diagnóstico web",
+      "archivo": "assets/docs/memorias/iaw_lifesport-u1.pdf",
+      "tamano_bytes": 3508050,
+      "estado": "Proyecto práctico documentado"
+    },
+    {
+      "id": "lifesport-cms",
+      "asignatura": "Implantación de Aplicaciones Web",
+      "titulo": "04 - LifeSport: WordPress y esquema de contenidos",
+      "archivo": "assets/docs/memorias/iaw_lifesport-cms.pdf",
+      "tamano_bytes": 238621,
+      "estado": "Práctica documentada"
+    },
+    {
+      "id": "db-hunters",
+      "asignatura": "Administración de Sistemas Gestores de Bases de Datos",
+      "titulo": "DB Hunters - Investigación de instalación y seguridad",
+      "archivo": "assets/docs/memorias/asgbd_db-hunters.pdf",
+      "tamano_bytes": 731181,
+      "estado": "Proyecto grupal documentado"
+    },
+    {
+      "id": "virtualbox",
+      "asignatura": "Virtualización y Cloud - Optativo",
+      "titulo": "01 - Preparación de máquinas en VirtualBox",
+      "archivo": "assets/docs/memorias/optativo_virtualbox.pdf",
+      "tamano_bytes": 301549,
+      "estado": "Práctica documentada"
+    },
+    {
+      "id": "synterava",
+      "asignatura": "Virtualización y Cloud - Optativo",
+      "titulo": "02 - Estrategia cloud y migración: Synterava",
+      "archivo": "assets/docs/memorias/optativo_synterava.pdf",
+      "tamano_bytes": 414003,
+      "estado": "Caso de estudio de diseño"
+    }
+  ]
+}

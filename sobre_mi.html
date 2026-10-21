@@ -1,217 +1,47 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sobre mí | Pedro Hosannah</title>
-    <meta name="description" content="Perfil personal, formación, habilidades, objetivos y reflexión final de Pedro Hosannah Navas." />
-    <meta name="author" content="Pedro Hosannah Navas" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#contenido">Saltar al contenido</a>
-
-    <header>
-      <nav class="navbar" aria-label="Navegación principal">
-        <a class="brand" href="index.html" aria-label="Ir al inicio">
-          <img src="images/logopagina.png" alt="Logo personal" class="logo-nav" />
-          <h1>Pedro Hosannah Navas</h1>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071626">
+  <meta name="author" content="Pedro Hosannah Navas">
+  <meta name="description" content="Perfil académico de Pedro Hosannah: ASIR, ciberseguridad, prácticas de sistemas y redes, habilidades reales e idiomas.">
+  <title>Sobre mí y formación | Pedro Hosannah</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body class="page-about">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container nav-layout">
+        <a class="site-brand" href="index.html" aria-label="Pedro Hosannah, ir al inicio">
+          <span class="brand-mark" aria-hidden="true"><img src="assets/img/logo-ph.svg" alt=""></span>
+          <span class="brand-copy"><strong>Pedro Hosannah</strong><small>Sistemas - Redes - Seguridad</small></span>
         </a>
-        <ul class="nav-links">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="sobre_mi.html" class="active">Sobre mí</a></li>
-          <li><a href="cv.html">CV</a></li>
-          <li><a href="portafolio.html">Proyectos</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Abrir menú de navegación">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-navigation" aria-label="Navegación principal"><ul><li><a href="index.html" >Inicio</a></li><li><a href="portafolio.html" >Proyectos</a></li><li><a href="sobre_mi.html" aria-current="page">Sobre mí</a></li><li><a href="cv.html" >Currículum</a></li><li><a href="contacto.html" >Contacto</a></li></ul></nav>
+        <a href="assets/docs/Pedro_Hosannah_CV_IT_2026_con_foto.pdf" download class="nav-download"><span aria-hidden="true">↓</span> Descargar CV</a>
+      </div>
     </header>
-
-
     <main id="contenido">
-      <section class="profile-header" id="sobre-mi">
-        <img src="images/pedro.png" alt="Pedro Hosannah" class="avatar" />
-        <div>
-          <span class="eyebrow">Sobre mí</span>
-          <h2>Pedro Hosannah Navas</h2>
-          <p>Estudiante de ASIR & Ciberseguridad · Trilingüe ES/PT/EN</p>
-        </div>
-      </section>
-
-      <section class="about-layout section-block">
-        <div class="about-bio">
-          <h2 class="section-title">Historia personal y profesional</h2>
-          <p>
-            Soy un apasionado de la tecnología con raíces en Brasil y base en Madrid. Actualmente estoy estudiando ASIR y Ciberseguridad en Centro Prometeo by The Power, con una orientación clara hacia la administración de sistemas, la gestión de redes y la protección de infraestructuras. Me interesa entender cómo funcionan los sistemas, cómo se protegen y cómo se recuperan cuando aparece un problema.
-          </p>
-          <p>
-            Creo firmemente en la ética hacker: el conocimiento debe ser libre, compartido y utilizado para construir sistemas más seguros. También intento aplicar una mentalidad analítica y práctica, como hice en el Reto de Ingeniería SENER, donde participé como consultor junior y conseguimos el 2º puesto defendiendo una propuesta técnica.
-          </p>
-          <p>
-            En 1º de ASIR también he participado en VECNA CORE, nuestro TFG/proyecto intermodular. Este trabajo me ha ayudado a conectar asignaturas como sistemas operativos, redes, hardware, nube, bases de datos y lenguaje de marcas dentro de una misma infraestructura empresarial.
-          </p>
-          <div class="quote-card">
-            <i class="fas fa-quote-left"></i>
-            <p>Mi objetivo no es solo hacer que la tecnología funcione, sino conseguir que funcione de forma segura, estable y responsable.</p>
-          </div>
-        </div>
-        <aside class="about-sidebar">
-          <div class="stat-card"><span class="stat-number small">JUNIOR</span><span>ASIR & Ciberseguridad</span></div>
-          <div class="stat-card"><span class="stat-number">100%</span><span>Motivación</span></div>
-          <div class="stat-card"><span class="stat-number small">ES / PT / EN</span><span>Perfil trilingüe</span></div>
-        </aside>
-      </section>
-
-      <section class="section-block" id="formacion">
-        <h2 class="section-title">Formación académica</h2>
-        <div class="timeline">
-          <article class="timeline-item">
-            <span class="timeline-date">2025 - 2027</span>
-            <h3>Máster en Ciberseguridad</h3>
-            <p>Centro Prometeo by The Power. Formación orientada a seguridad informática, protección de sistemas y desarrollo de una mentalidad defensiva.</p>
-          </article>
-          <article class="timeline-item">
-            <span class="timeline-date">2025 - 2027</span>
-            <h3>Técnico Superior en ASIR</h3>
-            <p>Centro Prometeo by The Power. Administración de sistemas, redes, servicios, virtualización e infraestructuras Linux/Windows.</p>
-          </article>
-          <article class="timeline-item">
-            <span class="timeline-date">2023 - 2025</span>
-            <h3>Bachillerato</h3>
-            <p>Colegio San José del Parque. Etapa académica previa en la que reforcé organización, constancia y base general para continuar mi formación técnica.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section-block" id="habilidades">
-        <h2 class="section-title">Habilidades y competencias</h2>
-        <div class="skills-grid">
-          <article class="skill-card">
-            <h3><i class="fas fa-server"></i> Sistemas e infraestructura</h3>
-            <ul>
-              <li>Windows Server: Active Directory, GPO, DNS y DHCP.</li>
-              <li>Linux Ubuntu/Debian: usuarios, permisos y CLI.</li>
-              <li>Virtualización con VMware Workstation y VirtualBox.</li>
-            </ul>
-          </article>
-          <article class="skill-card">
-            <h3><i class="fas fa-shield-halved"></i> Seguridad</h3>
-            <ul>
-              <li>Ciberseguridad actualmente en preparación.</li>
-              <li>Buenas prácticas de seguridad y protección de infraestructuras.</li>
-              <li>Interés en auditoría, hardening y análisis de vulnerabilidades.</li>
-            </ul>
-          </article>
-          <article class="skill-card">
-            <h3><i class="fas fa-terminal"></i> Automatización</h3>
-            <ul>
-              <li>Configuración TCP/IP, VLANs, routing y switching básico.</li>
-              <li>Documentación técnica y elaboración de presupuestos BoM.</li>
-              <li>Presentación y defensa de proyectos técnicos.</li>
-            </ul>
-          </article>
-          <article class="skill-card">
-            <h3><i class="fas fa-people-arrows"></i> Competencias personales</h3>
-            <ul>
-              <li>Curiosidad técnica y pensamiento analítico.</li>
-              <li>Capacidad de aprendizaje y adaptación.</li>
-              <li>Ética, responsabilidad y trabajo en equipo.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section-block" id="identidad">
-        <h2 class="section-title">Identidad, valores e intereses</h2>
-        <div class="grid-container">
-          <article class="card project-card">
-            <div class="card-image"><img src="images/brasil.png" alt="Bandera de Brasil" /></div>
-            <div class="card-content">
-              <h3>Raíces brasileñas</h3>
-              <p>Mis raíces en Brasil forman parte de mi identidad personal y cultural, aportándome adaptación, energía y apertura a diferentes entornos.</p>
-            </div>
-          </article>
-          <article class="card project-card">
-            <div class="card-image"><img src="images/eticayconfianza.jpg" alt="Ética, respeto y confianza" /></div>
-            <div class="card-content">
-              <h3>Ética y confianza</h3>
-              <p>La seguridad informática debe practicarse con responsabilidad, respeto, honestidad e integridad profesional.</p>
-            </div>
-          </article>
-          <article class="card project-card">
-            <div class="card-image"><img src="images/formacioncontinua.jpg" alt="Formación continua" /></div>
-            <div class="card-content">
-              <h3>Formación continua</h3>
-              <p>Mantengo una actitud de aprendizaje constante para mejorar mis competencias técnicas y adaptarme a nuevas herramientas.</p>
-            </div>
-          </article>
-          <article class="card project-card">
-            <div class="card-image"><img src="images/futbol.png" alt="Fútbol como interés personal" /></div>
-            <div class="card-content">
-              <h3>Trabajo en equipo</h3>
-              <p>El fútbol representa para mí disciplina, constancia y cooperación, valores que también aplico en proyectos técnicos.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section-block" id="idiomas">
-        <h2 class="section-title">Idiomas y herramientas digitales</h2>
-        <div class="two-column">
-          <article class="panel-card">
-            <h3>Idiomas</h3>
-            <div class="language-list">
-              <div><strong>Español</strong><span>Nativo</span></div>
-              <div><strong>Portugués</strong><span>Nativo</span></div>
-              <div><strong>Inglés</strong><span>B2 teórico</span></div>
-            </div>
-          </article>
-          <article class="panel-card">
-            <h3>Herramientas digitales</h3>
-            <div class="tags large-tags">
-              <span class="tag">Windows Server</span><span class="tag">Active Directory</span><span class="tag">GPO</span><span class="tag">DNS/DHCP</span>
-              <span class="tag">Linux</span><span class="tag">Ubuntu/Debian</span><span class="tag">TCP/IP</span><span class="tag">VLANs</span>
-              <span class="tag">VMware</span><span class="tag">VirtualBox</span><span class="tag">Azure Fundamentals</span><span class="tag">HTML5/CSS3</span><span class="tag">IIS</span><span class="tag">FTP</span><span class="tag">GitHub</span>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section-block" id="objetivos">
-        <h2 class="section-title">Objetivos profesionales</h2>
-        <div class="goals-grid">
-          <article class="goal-card">
-            <span>01</span>
-            <h3>Corto plazo</h3>
-            <p>Consolidar mis conocimientos en ASIR, Windows Server, Linux, redes TCP/IP, virtualización y buenas prácticas de seguridad.</p>
-          </article>
-          <article class="goal-card">
-            <span>02</span>
-            <h3>Medio plazo</h3>
-            <p>Participar en proyectos reales de infraestructura, soporte, redes y seguridad, aportando documentación, análisis y disciplina técnica.</p>
-          </article>
-          <article class="goal-card">
-            <span>03</span>
-            <h3>Largo plazo</h3>
-            <p>Especializarme en ciberseguridad defensiva y administración segura de infraestructuras para crecer profesionalmente en el sector IT.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section-block reflection" id="reflexion">
-        <h2 class="section-title">Reflexión personal final</h2>
-        <p>
-          Este portfolio representa mi punto de partida y mi compromiso con la mejora continua. La tecnología cambia constantemente, por eso considero que el aprendizaje, la práctica y la ética son tan importantes como las herramientas. Quiero crecer como profesional capaz de analizar problemas, proteger sistemas y aportar soluciones útiles, bien documentadas y sostenibles.
-        </p>
-        <p>
-          Mi mayor motivación es transformar la curiosidad en conocimiento práctico. Cada servidor configurado, cada script escrito y cada vulnerabilidad estudiada me acercan a mi objetivo: trabajar en tecnología con responsabilidad, creatividad y mentalidad de seguridad desde el primer día.
-        </p>
-      </section>
-    </main>
-
-    <footer>
-      <p>© 2025 Pedro Hosannah Navas | Portfolio académico-profesional</p>
+<section class="page-intro container"><span class="kicker">SOBRE MÍ / PERFIL</span><h1>Una base técnica sólida.<br><em>Mucho por aprender.</em></h1><p>Me interesa entender cómo funciona una infraestructura, cómo se administra y cómo se protege. Por eso doy importancia a practicar y documentar, además de estudiar teoría.</p></section>
+<section class="section container about-grid"><div class="about-narrative"><span class="kicker">01 / PRESENTACIÓN</span><h2>Quién soy</h2><p>Soy Pedro Hosannah Navas, estudiante de segundo curso del Grado Superior de Administración de Sistemas Informáticos en Red (ASIR) en Prometeo by ThePower. También curso un máster privado en Ciberseguridad en ThePower; ambas formaciones están previstas entre 2025 y 2027.</p><p>Mis prácticas han incluido configuración de servidores Windows y Linux, servicios de red, máquinas virtuales, administración de usuarios, detección de intrusiones y comprobaciones de conectividad. Actualmente mi objetivo es comenzar mi experiencia laboral en el sector tecnológico.</p><p>No pretendo presentarme como un especialista con años de experiencia. Prefiero mostrar exactamente qué he hecho, qué he comprobado y qué sigo aprendiendo.</p></div><div class="info-panel"><span class="panel-caption">MI PERFIL, EN BREVE</span><dl><div><dt>Ubicación</dt><dd>Madrid, España</dd></div><div><dt>Formación</dt><dd>2.º ASIR + máster privado en Ciberseguridad (en curso)</dd></div><div><dt>Intereses</dt><dd>Sistemas - Redes - Seguridad defensiva</dd></div><div><dt>Disponibilidad</dt><dd>Prácticas desde febrero de 2027</dd></div></dl><a href="assets/docs/Pedro_Hosannah_CV_IT_2026_con_foto.pdf" class="text-link" download>Descargar currículum ↗</a></div></section>
+<section class="section section-muted" id="formacion"><div class="container"><div class="section-heading"><div><span class="kicker">02 / FORMACIÓN</span><h2>Aprendizaje <span>en marcha.</span></h2></div></div><div class="timeline"><article class="timeline-item"><span>2025 – 2027 - EN CURSO</span><div><h3>Técnico Superior en Administración de Sistemas Informáticos en Red</h3><p>Prometeo by ThePower - Segundo curso de ASIR</p></div></article><article class="timeline-item"><span>2025 – 2027 - EN CURSO</span><div><h3>Máster privado en Ciberseguridad</h3><p>ThePower - Formación complementaria de carácter privado</p></div></article><article class="timeline-item"><span>JUNIO – JULIO 2026</span><div><h3>Camarero de barra - Sal y Pimienta</h3><p>Atención al cliente, gestión de pedidos y cobros y coordinación con compañeros durante el servicio.</p></div></article></div></div></section>
+<section class="section container" id="habilidades"><div class="section-heading"><div><span class="kicker">03 / EXPERIENCIA PRÁCTICA</span><h2>Herramientas con las que <span>he trabajado.</span></h2></div></div><div class="skill-groups"><article><div class="skill-bullet">01</div><h3>Sistemas y administración</h3><p>Laboratorios con Windows Server, Windows 11, Ubuntu, Active Directory, permisos y automatización de tareas con PowerShell.</p><div class="tags"><span>Windows Server</span><span>Ubuntu</span><span>Active Directory</span><span>PowerShell</span></div></article><article><div class="skill-bullet">02</div><h3>Redes y conectividad</h3><p>Configuraciones de DHCP, redes simuladas en Cisco Packet Tracer, VLSM y comprobaciones de paquetes y conectividad.</p><div class="tags"><span>DHCP</span><span>Packet Tracer</span><span>Wireshark</span><span>VLSM</span></div></article><article><div class="skill-bullet">03</div><h3>Seguridad en laboratorio</h3><p>Reglas y alertas de Suricata, revisión de servicios con Nmap, controles básicos UFW y ejercicios de criptografía con OpenSSL.</p><div class="tags"><span>Suricata</span><span>Nmap</span><span>UFW</span><span>OpenSSL</span></div></article><article><div class="skill-bullet">04</div><h3>Otras tecnologías</h3><p>Prácticas con Docker Compose y PostgreSQL, además de creación y mantenimiento de páginas con HTML y CSS.</p><div class="tags"><span>Docker Compose</span><span>PostgreSQL</span><span>HTML</span><span>CSS</span></div></article></div></section>
+<section class="section container" id="idiomas"><div class="language-block"><div><span class="kicker">04 / COMUNICACIÓN</span><h2>Idiomas</h2></div><div class="language-pills"><div><b>Español</b><span>Nativo</span></div><div><b>Portugués</b><span>Nativo</span></div><div><b>Inglés</b><span>Intermedio - Sin certificado</span></div></div></div></section>
+<section class="container cta-wrap cta-small"><div class="cta-card"><div><span class="kicker">MI OBJETIVO</span><h2>Dar el siguiente paso <span>en IT.</span></h2><p>Busco unas prácticas donde aportar responsabilidad, aprender del equipo y crecer en administración de sistemas, soporte, redes o seguridad.</p></div><div class="cta-actions"><a href="contacto.html" class="button button-light">Contactar ↗</a></div></div></section>
+</main>
+    <footer class="site-footer">
+      <div class="container footer-layout">
+        <div><a class="footer-brand" href="index.html">Pedro Hosannah <span>↗</span></a><p>Aprendiendo, configurando y documentando infraestructuras IT.</p></div>
+        <div class="footer-links" aria-label="Enlaces de contacto"><a href="https://www.linkedin.com/in/pedro-hosannah-navas-90a0a7395/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/PedroHosannah" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="mailto:p.hosannahnavas@gmail.com">Email ↗</a></div>
+        <div class="copyright">© 2026 Pedro Hosannah Navas<br>Madrid, España</div>
+      </div>
     </footer>
-  </body>
+  </div>
+</body>
 </html>
