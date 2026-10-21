@@ -1,4 +1,4 @@
-# Portfolio de Pedro Hosannah Navas — propuesta Hito 4
+# Portfolio de Pedro Hosannah Navas
 
 Sitio web **estático** en HTML, CSS y JavaScript. Esta es una **propuesta local para revisión**, no una actualización publicada.
 
