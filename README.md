@@ -20,9 +20,7 @@ Presenta la formación en Administración de Sistemas Informáticos en Red (ASIR
 ## Currículums disponibles
 
 - `assets/docs/CV_Pedro_Hosannah_con_Foto.pdf`
-- `assets/docs/CV_Pedro_Hosannah_con_Foto.docx`
 - `assets/docs/CV_Pedro_Hosannah_sin_Foto.pdf`
-- `assets/docs/CV_Pedro_Hosannah_sin_Foto.docx`
 - `assets/docs/CV_Pedro_Hosannah_texto_plano.docx`
 
 Todos están basados en el mismo contenido; la variante de texto simple es un archivo Word sin columnas ni fotografía, pensado para facilitar la lectura automática.
